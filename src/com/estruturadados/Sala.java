@@ -68,6 +68,12 @@ public class Sala {
     public int buscarAluno(int rgm) {
         int inicioBusca = 0;
         int fimBusca = alunoContador;
+
+        if (alunoContador == 0) {
+            System.out.println("Lista vazia");
+            return -1;
+        }
+
         while (inicioBusca <= fimBusca) {
             int meio = inicioBusca + (fimBusca - inicioBusca) / 2;
 
