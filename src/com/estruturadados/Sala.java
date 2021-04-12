@@ -116,16 +116,16 @@ public class Sala {
         Scanner leitorEscolha = new Scanner(System.in);
 
         while (app) {
-            System.out.println("App de gerência de alunos");
+            System.out.println("App de gerencia de alunos");
             System.out.println("""
-                    -- Menu -- 
+                    -- Menu --
                     1 - Adicionar novo aluno
                     2 - Mostrar todos os alunos
                     3 - Procurar aluno pelo RGM
                     4 - Remover um aluno pelo RGM
                     5 - Sair do programa
                     -- #### --
-                    Escolha: 
+                    Escolha:
                     """);
             String escolha = leitorEscolha.nextLine();
             switch (Integer.parseInt(escolha)) {
@@ -150,7 +150,7 @@ public class Sala {
                     app = false;
                     break;
                 default:
-                    System.out.println("Opção invalida\n");
+                    System.out.println("Opcao invalida\n");
             }
         }
     }

@@ -67,8 +67,9 @@ public class Disciplinas {
                     novaLista.addDisciplina(nomeDisciplina, Integer.parseInt(nota));
                     break;
                 case 2:
-                    System.out.println("Finalizada adição de novas disciplinas");
+                    System.out.println("Finalizada adicao de novas disciplinas");
                     on = false;
+                    break;
                 default:
                     System.out.println("Escolha invalida");
             }
